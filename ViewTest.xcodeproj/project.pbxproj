@@ -19,6 +19,7 @@
 		81CD749919C13DC700BB5FB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD748119C13DC700BB5FB9 /* UIKit.framework */; };
 		81CD74A119C13DC700BB5FB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CD749F19C13DC700BB5FB9 /* InfoPlist.strings */; };
 		81CD74A319C13DC700BB5FB9 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD74A219C13DC700BB5FB9 /* ViewTestTests.m */; };
+		81CD74AE19C13E6F00BB5FB9 /* BLSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD74AD19C13E6F00BB5FB9 /* BLSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		81CD749E19C13DC700BB5FB9 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		81CD74A019C13DC700BB5FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81CD74A219C13DC700BB5FB9 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		81CD74AC19C13E6F00BB5FB9 /* BLSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSimpleView.h; sourceTree = "<group>"; };
+		81CD74AD19C13E6F00BB5FB9 /* BLSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				81CD748C19C13DC700BB5FB9 /* BLAppDelegate.h */,
 				81CD748D19C13DC700BB5FB9 /* BLAppDelegate.m */,
+				81CD74AC19C13E6F00BB5FB9 /* BLSimpleView.h */,
+				81CD74AD19C13E6F00BB5FB9 /* BLSimpleView.m */,
 				81CD748F19C13DC700BB5FB9 /* Images.xcassets */,
 				81CD748419C13DC700BB5FB9 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CD74AE19C13E6F00BB5FB9 /* BLSimpleView.m in Sources */,
 				81CD748E19C13DC700BB5FB9 /* BLAppDelegate.m in Sources */,
 				81CD748A19C13DC700BB5FB9 /* main.m in Sources */,
 			);
